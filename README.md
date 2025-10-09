@@ -1,2 +1,2 @@
-# TheBestProgramEVER
+# TheBestProgramEVR
 Name says it all.
