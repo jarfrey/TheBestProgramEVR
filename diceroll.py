@@ -9,10 +9,11 @@ try:
     if (dRollAmt > 0) and (dSidesAmt > 1):
         print("Okay " + name + ", here are the results of your dice rolls:")
         while (dRollAmt > 0):
-            dRollAmt -= 1
+            dRollAmt = dRollAmt - 1
             randInt = random.randint(1, dSidesAmt)
             print(randInt, end=" ")
     else:
         print("Please enter a valid amount of dice and side amounts.")
 except:
     print("Please enter a number next time.")
+print("Thanks for using the program!")
